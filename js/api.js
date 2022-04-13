@@ -19,7 +19,6 @@ const getData = (onSuccess) => {
       onSuccess(data);
       showImageFilters();
     });
-
 };
 
 const sendData = (onSuccess, onFail, body) => {
